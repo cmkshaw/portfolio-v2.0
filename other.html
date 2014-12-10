@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Caroline Shaw / Web Developer, Toronto</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset='utf-8'>
+
+<!--<link rel="stylesheet" href="stylesheets/styles.css">-->
+<link rel="stylesheet" href="stylesheets/normalize.css">
+ <link rel="stylesheet" type="text/css" media="screen" href="./stylesheets/mobilemenu.css"/>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="js/jqueryui.js"></script>
+<script src="js/js.js"></script>
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<![endif]-->
+    <script>
+        $(document).ready(function(){
+            $(".nav-button").click(function () {
+            $(".nav-button,.primary-nav").toggleClass("open");
+            });
+
+            //http://stackoverflow.com/questions/2907367/have-a-div-cling-to-top-of-screen-if-scrolled-down-past-it
+    
+    
+        });
+    </script>
+<style>
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    top: 0;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+img
+{
+    max-width: 100%;
+}
+@font-face
+{
+font-family: Lobster;
+src: url('fonts/LobsterTwo-Regular.otf');
+}
+
+@font-face
+{
+font-family: Deco;
+src: url('fonts/Market_Deco.ttf');
+}
+
+header
+{
+    background-image: url('img/hexabump.png');
+    
+    width: 100%;
+    z-index: 1;
+}
+
+
+#logo
+{
+    background-image: url('img/diamond.png');
+    background-repeat: no-repeat;
+    width:550px;
+    height:550px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#logo a{
+    position: relative;
+    top:200px;
+    left:110px;
+    font-family: Deco;
+    font-size: 2.0em;
+}
+
+#logo p
+{
+    position: relative;
+    top:200px;
+    left:110px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+   font-size: 2.0em;
+}
+
+#home
+{
+    z-index: 700;
+}
+img{
+    max-width: 100%;
+}
+
+</style>
+</head>
+<body>
+<div id="container">
+<div class="scroll"></div><!--scroll-->
+<header>
+    <button class="nav-button">Toggle Navigation</button>
+    <!-- for accessibility-->
+    <h1 class="outline">My Portfolio Site</h1>
+    <!--h1 is the root when outlined in html5outliner-->
+
+  
+    <nav class="topnav">
+
+     <!--for accessibility -->   
+      
+ <div id="logo"><a href="#">Caroline Shaw</a>
+   
+<p>web developer</p></div>
+        <ul id="nav-top" class="primary-nav">
+            <li class="nav"><a href="#portfolio">Portfolio</a></li>
+            <li class="nav"><a href="#case-studies">Case Studies</a></li>
+            <li class="nav"> <a href="#">About</a></li>            
+            <li class="nav"><a href="#">Contact</a></li>            
+        </ul>
+    </nav>
+
+    <h1 class="outline">Main Navigation</h1>
+</header>
+<section id="home">
+    <article class="portfolio">
+        <hgroup>
+            <h1>Trvlr</h1>
+            <h2>A very tasty website developed with PHP, HTML5 and CSS3</h2>
+        </hgroup>
+        <figure><a href="#"><img src="img/portfolio.jpg" alt="" class="full"></a></figure>
+       
+        <p>This is a project where we did some stuff.</p>
+        <p><a href="#" class="view-more">Read more</a></p>
+    </article>
+
+    <article class="portfolio">
+        <hgroup>
+            <h1>Sensenbrenner Hospital Redesign</h1>
+            <h2>A very tasty website developed using ASP.net</h2>
+        </hgroup>
+        <figure><a href="#"><img src="img/portfolio.jpg" alt="" class="full"></a></figure>
+        <p>Short intro blurb text about this project. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies mollis volutpat. Ut vel nibh arcu, in hendrerit mi. Nulla eu nulla et quam lobortis tempus id et nisi.</a>
+        <p><a href="#" class="view-more">Read more</a></p>
+    </article>
+
+    <article class="portfolio">
+        <hgroup>
+            <h1>Entry to FITC Women's Initiative</h1>
+            <h2>A website developed as a contest entry for FITC</h2>
+        </hgroup>
+        <figure><a href="#"><img src="img/portfolio.jpg" alt="" class="full"></a></figure>
+        <p>Short intro blurb text about this project. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies mollis volutpat. Ut vel nibh arcu, in hendrerit mi. Nulla eu nulla et quam lobortis tempus id et nisi.</a>
+        <p><a href="#" class="view-more">Read more</a></p>
+    </article>
+</section>
+
+
+    <article id="case-studies">
+        <hgroup>
+            <h1>Case Studies</h1>
+            <h4>Blog post subhead</h4>
+            <h5>Date: May 6, 2013</h5>
+        </hgroup>
+        <figure id="blog-post-img">
+            <img src="img/portfolio.jpg" alt="" class="full blog-img">
+        </figure>
+        <p>A lead in to the blog post followed by a "read more" link. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies mollis volutpat. Ut vel nibh arcu, in hendrerit mi. Nulla eu nulla et quam lobortis tempus id et nisi. Cras sodales sodales eros, sit amet elementum mi bibendum a. Vestibulum tincidunt purus vel risus vulputate vehicula. Suspendisse velit nisl, consequat in pharetra vel, adipiscing non justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras pretium dolor vel metus adipiscing bibendum. Ut accumsan congue purus, eget placerat leo malesuada varius</p>
+        <p><a href="#" class="view-more">Read more</a></p>
+    </article>
+    <article id="about">
+        <hgroup>
+            <h1>Case Studies</h1>
+            <h4>Blog post subhead</h4>
+            <h5>Date: May 6, 2013</h5>
+        </hgroup>
+        <figure id="blog-post-img">
+            <img src="img/portfolio.jpg" alt="" class="full blog-img">
+        </figure>
+        <p>A lead in to the blog post followed by a "read more" link. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies mollis volutpat. Ut vel nibh arcu, in hendrerit mi. Nulla eu nulla et quam lobortis tempus id et nisi. Cras sodales sodales eros, sit amet elementum mi bibendum a. Vestibulum tincidunt purus vel risus vulputate vehicula. Suspendisse velit nisl, consequat in pharetra vel, adipiscing non justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras pretium dolor vel metus adipiscing bibendum. Ut accumsan congue purus, eget placerat leo malesuada varius</p>
+        <p><a href="#" class="view-more">Read more</a></p>
+    </article>
+
+<hr>
+
+<footer>
+    <nav>
+        <ul id="nav-bottom">
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Case Studies</a></li>            
+            <li><a href="#">Contact</a></li>            
+        </ul>
+    </nav>
+
+    <article id="about">
+        <figure id="profile"><img src="img/portfolio-small.jpg" alt=""></figure>
+        <h3>About me</h3>
+        <p>A short paragraph on how this site came about. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies mollis volutpat. Ut vel nibh arcu, in hendrerit mi. Nulla eu nulla et quam lobortis tempus id et nisi.</p>
+    </article>
+
+    <nav>
+        <ul id="nav-social">
+            <li><a href="#">Find me on Facebook</a></li>
+            <li><a href="#">Follow me on Twitter</a></li>
+            <li><a href="#">Connect with LinkedIn</a></li>            
+            <li><a href="#">My Flickr Page</a></li>            
+        </ul>
+    </nav>
+    
+    <div id="copyright"><p>&copy; 2013 Royce Yadav. </p></div>
+</footer>
+</div> <!--container-->
+</body>
+</html>

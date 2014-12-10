@@ -1,0 +1,381 @@
+.nav-button { display: none; } /* hide the navigation button by default */
+
+@media only screen and (min-width: 0px) and (max-width: 516px) {
+
+/* Caro's Styles------------------------------------- */
+
+#copyright
+{
+	font-size: .6em;
+}
+
+input
+{
+	width:90%;
+}
+
+textarea
+{
+	width:90%;
+}
+
+.firstdiv
+{
+	clear: both;
+}
+
+#twitter
+{
+	display: none;
+}
+
+.skills
+{
+	padding-top: 1%;
+}
+
+.columntwo {
+    
+    margin-top:5%;
+}
+
+/*-----------------------------When mobile, rotate LOGO 90 degrees---------------------------*/
+
+#logo img
+{
+	-webkit-transition: all 500ms cubic-bezier(0.420, 0.000, 1.000, 1.000); 
+   -moz-transition: all 500ms cubic-bezier(0.420, 0.000, 1.000, 1.000); 
+    -ms-transition: all 500ms cubic-bezier(0.420, 0.000, 1.000, 1.000); 
+     -o-transition: all 500ms cubic-bezier(0.420, 0.000, 1.000, 1.000); 
+        transition: all 500ms cubic-bezier(0.420, 0.000, 1.000, 1.000); /* ease-in */
+
+-webkit-transition-timing-function: cubic-bezier(0.420, 0.000, 1.000, 1.000); 
+   -moz-transition-timing-function: cubic-bezier(0.420, 0.000, 1.000, 1.000); 
+    -ms-transition-timing-function: cubic-bezier(0.420, 0.000, 1.000, 1.000); 
+     -o-transition-timing-function: cubic-bezier(0.420, 0.000, 1.000, 1.000); 
+        transition-timing-function: cubic-bezier(0.420, 0.000, 1.000, 1.000); /* ease-in */
+-webkit-transform: rotate(90deg);  
+     -moz-transform: rotate(90deg);  
+      -ms-transform: rotate(90deg);
+       -o-transform: rotate(90deg);  
+          transform: rotate(90deg);  
+
+}
+
+/*-----------------------------Setting Overlay to Opacity 1----------------------------*/
+
+.overlay, .overlaytwo, .overlaythree, .overlayfour, .overlayfive
+{
+	opacity: 1;
+}
+
+/*-----------------------------Smaller Heading Styles----------------------------*/
+
+h1
+{
+
+	font-family: 'Roboto Slab', serif;
+	font-weight: 300;
+	font-size: 25px;
+
+}
+
+h2
+{
+
+	font-family: 'Roboto Slab', serif;
+	font-weight: 300;
+		
+		font-size: 20px;
+}
+
+h3
+{
+	/*font-family: 'Roboto Slab', serif;*/
+	font-family: Lobster;
+	font-weight: 300;
+	font-size: 35px;
+	color: #545454;
+}
+
+h4
+{
+	font-family: Lobster;
+	font-weight: 300;
+	font-size: 25px;
+	color: #545454;
+	text-align: center;
+}
+
+h5
+{
+	margin-top:70px;
+	font-family: Lobster;
+	color:#FFF;
+	font-size: 30px;
+	-webkit-transform: rotate(-90deg); 
+-moz-transform: rotate(-90deg);
+}
+
+/*-----------------------------Smaller Resume pop up----------------------------*/
+
+.resumepop{
+
+
+text-align: center;
+font-size: 24px;
+padding:8px;
+background-color: rgb(105, 201, 201);
+position:fixed;
+height:200px;
+width:40px;
+top:50%;
+right:-99px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+box-shadow: 10px 10px 5px #888888;
+}
+
+#logo
+{
+	z-index: 1;
+	margin-left: 25%;
+	float:none;
+	margin-top:0px;
+}
+
+.scroll
+{
+	-webkit-transition: all 500ms cubic-bezier(0.420, 0.000, 1.000, 1.000); 
+   -moz-transition: all 500ms cubic-bezier(0.420, 0.000, 1.000, 1.000); 
+    -ms-transition: all 500ms cubic-bezier(0.420, 0.000, 1.000, 1.000); 
+     -o-transition: all 500ms cubic-bezier(0.420, 0.000, 1.000, 1.000); 
+        transition: all 500ms cubic-bezier(0.420, 0.000, 1.000, 1.000); /* ease-in */
+
+-webkit-transition-timing-function: cubic-bezier(0.420, 0.000, 1.000, 1.000); 
+   -moz-transition-timing-function: cubic-bezier(0.420, 0.000, 1.000, 1.000); 
+    -ms-transition-timing-function: cubic-bezier(0.420, 0.000, 1.000, 1.000); 
+     -o-transition-timing-function: cubic-bezier(0.420, 0.000, 1.000, 1.000); 
+        transition-timing-function: cubic-bezier(0.420, 0.000, 1.000, 1.000); /* ease-in */
+	width:10px;
+	z-index:1;
+}
+
+	.topnav
+{
+	left:0px;
+	top:0px;
+	position: static;
+	z-index: 1;
+	float:none;
+	width: 100%;
+	height:auto;
+
+	
+}
+	.topnav ul
+{
+	margin-left:auto;
+	margin-top:auto;
+}
+
+
+.topnav li {
+
+	display: inline;
+
+	height:auto;
+	width:auto;
+	padding:auto;
+
+	
+	}
+.topnav li a {
+	
+	display: inline;
+	text-transform: lowercase;
+	margin:0 auto;
+	font-size: 1.1em;
+	color:#FFF;
+	cursor: pointer;
+z-index: 995;
+     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+
+}	
+
+.firstdiv
+{
+	margin-left:10%;
+		padding-top: 25px;
+		margin-right:10%;
+		
+}
+
+.columnone
+
+{
+	float:left;
+	margin-left:0%;
+	width:100%;
+}
+.columntwo
+{
+	float:left;
+	width:100%%;
+}
+
+.skills
+{
+	margin-top: 10%;
+	margin-left: 5%;
+	font-size: 20px;
+	
+}
+
+
+
+.skills li{
+	margin-left: 2%;
+	margin-top:5px;
+	list-style: none url('img/bullet.png');
+background-repeat:no-repeat;
+background-position:0px 5px; 
+padding-left:14px;
+}
+
+
+
+
+
+	/* Navigation Button
+	-------------------------------------------------------- */
+
+	.nav-button {
+		display: block;
+		position: absolute;
+		top: 7px;
+		left: 7px;
+		width: 50px;
+		height: 35px;
+		background: url('../img/menu-icon-large.png'), -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background: url('../img/menu-icon-large.png'),    -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background: url('../img/menu-icon-large.png'),     -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background: url('../img/menu-icon-large.png'),      -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: 21px, 100%;
+		cursor: pointer;
+		border: 0 none;
+		border-bottom: 1px solid rgba(255,255,255,1);
+		box-shadow: 0 0 4px rgba(0,0,0,.7) inset;
+		border-radius: 5px;
+		z-index: 999;
+		text-indent: -9999px;
+	}
+	.nav-button:hover { 
+		background-color: rgba(0,0,0,.1); 
+	}
+	.nav-button.open {
+		background: url('../img/close-icon-large.png'), -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background: url('../img/close-icon-large.png'),    -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background: url('../img/close-icon-large.png'),     -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background: url('../img/close-icon-large.png'),      -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: 21px, 100%;
+	}
+
+	/* Navigation Bar
+	-------------------------------------------------------- */
+
+	body { padding-top: 50px; } 
+
+	.primary-nav {
+		width: 100%;
+		float: none;
+		background-color: #FFF; /* change the menu color */
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background-image:    -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background-image:     -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background-image:      -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
+		display: block;
+		height: 50px;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		box-shadow: 0 1px 2px rgba(0,0,0,.6);
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		z-index: 998;
+		clear: both;
+	}
+	.primary-nav li {
+		display: none;
+		width: 100%;
+		font-family: Arial;
+	}
+	.primary-nav li a {
+		display: block;
+		width: 90%;
+		padding: 10px 5%;
+		font-size: 14px;
+		font-weight: bold;
+		text-shadow: -1px -1px 0 rgba(0,0,0,.15);
+		color: white;
+		text-decoration: none;
+		border-bottom: 1px solid rgba(0,0,0,.2);
+		border-top: 1px solid rgba(255,255,255,.1); 
+	}
+	.primary-nav li a:hover {
+		background-color: rgba(0,0,0,.5);
+		border-top-color: transparent;
+	}
+	.primary-nav > li:first-child {
+		border-top: 1px solid rgba(0,0,0,.2);
+	}
+
+	/* Toggle the navigation bar open  */
+
+	.primary-nav.open { 
+		height: auto; 
+		padding-top: 50px;
+	}
+	.primary-nav.open li { 
+		display: block; 
+	}
+
+	/* Submenus – optional .parent class indicates dropdowns */
+
+	.primary-nav > li:hover > a {
+		background: rgba(0,0,0,.5);
+		border-bottom-color: transparent;
+	}
+	.primary-nav li.parent > a:after {
+		content: "▼";
+		color: rgba(255,255,255,.5);
+		float: right;
+	}
+	.primary-nav li.parent > a:hover {
+		background: rgba(0,0,0,.75);
+	}
+	.primary-nav li ul {
+		display: none;
+		background: rgba(0,0,0,.5);
+		border-top: 0 none;
+		padding: 0;
+	}
+	.primary-nav li ul a {
+		border: 0 none;
+		font-size: 12px;
+		padding: 10px 5%;
+		font-weight: normal;
+	}
+	.primary-nav li:hover ul {
+		display: block;
+		border-top: 0 none;
+	}
+
+} /* End Mobile Styles */

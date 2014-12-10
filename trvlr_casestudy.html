@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Caroline Shaw / Web Developer, Toronto, Interactive
+    Multimedia</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="description" content="Caroline Shaw is a Web Developer based in Toronto, ON">
+    <meta charset='utf-8'>
+
+    <!--styles-->
+    <link href="./stylesheets/styles2.css" rel="stylesheet">
+   <link href="./stylesheets/normalize.css" rel="stylesheet">
+    <link href="./stylesheets/mobilemenu.css" media="screen" rel="stylesheet"
+    type="text/css">
+
+    <!--js-->
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="js/jqueryui.js"></script>
+    <script src="js/js.js"></script>
+
+   <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+</head>
+<body>
+    <div id="container">
+        <div class="scroll"></div><!--scroll-->
+
+        <header>
+            <button class="nav-button">Toggle Navigation</button>
+
+            <nav class="topnav">
+                <figure class="box fade-in one" id="logo">
+                    <a href="index.html"><img alt="caroline" src=
+                    "img/logo3.png"></a>
+                </figure>
+
+                <ul class="primary-nav" id="nav-top">
+                    <li class="empty">
+                        <a href="#">Meep</a>
+                    </li>
+
+                    <li class="box fade-in five">
+                        <a href="http://blog.caroshaw.com">Blog</a>
+                    </li>
+
+                    <li class="box fade-in four">
+                        <a href="contact.html">Contact</a>
+                    </li>
+
+                    <li class="box fade-in three">
+                        <a href="work.html">Work &amp; Case Studies</a>
+                    </li>
+
+                    <li class="box fade-in two">
+                        <a href="index.html">About</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="line-separator"></div>
+ <aside id="selfportrait">
+            <img class="" src="img/trvlrlogo.jpg" alt="trvlrlogo" />
+        </aside>
+        <section class="firstdiv">
+            <!--intro info-->
+            
+            <h3>Case Study: Trvlr</h3>
+            <br/><br/>
+            <h1>For this project, my group and I came up with a crowd-sourced travel website.</h1><h2>  We focused on users who were going to be traveling to a new locale (specifically in Canada) and didn’t necessarily know what to do in a particular city, from a local’s perspective. </h2>
+            <br/>   
+            <h2>Instead of throwing ads or hotel deals at the user, we asked them a few simple questions that led them along a trajectory of finding an activity.
+           By allowing users to register and add activities, we’ve opened up the discourse on travel from a local’s perspective.</h2>
+           <br/><br/>
+            <figure>
+            <img src="img/trvlrmain.jpg" height="410" width="782" alt="trvlrmainpage"/>
+            <figcaption>Main Page: <a href="http://trvlr.caroshaw.com">trvlr.caroshaw.com</a></figcaption>
+            </figure>
+
+        </section><!--firstdiv-->
+
+
+        <div class="next">
+            <!--SKILLS & LOVES-->
+
+            <aside class="resumepop">
+                <a href="fitc_casestudy.html">view<br>
+                 fitc
+
+                <h5 class="fitcase">casestudy</h5></a>
+            </aside>
+
+            
+        </div><!--aboutme-->
+
+        <section class="viewmywork">
+           <h3>Development</h3>
+           <br/><br/>
+         
+           <img class="mockup" src="img/trvlr_mockup1.jpg" alt="trvlrlogo" />
+           <img class="mockup" src="img/trvlr_mockup2.jpg" alt="trvlrlogo" />
+           <img class="mockup" src="img/trvlr_mockup3.jpg" alt="trvlrlogo" />
+            <p>Initial Designs Based on wireframes</p>
+        </section>
+<article class="columnone">
+                <h4>Front-end</h4>
+                
+               <p class="blockp">For this project, I was responsible for the front-end design and development. With my wireframes as a base for the project, I was able to create the necessary code to reflect my initial designs.
+ <br/>  <br/> 
+
+In addition to the design, I was responsible for three specific database driven features.
+When a user reaches the activity page, they’re met with a short description, a Google Map (API), an image slideshow as well as the ability to comment on that specific activity. Since all of the activity information is within our database, I used PHP to pull out an array of information based on the ID of the Activity. Therefore, all of the information generated on the page is simply based on that specific ID number.</p>
+
+
+            </article>
+
+            <article class="columntwo">
+                <h4>Back-end: PHP</h4>
+                <p class="blockp">
+In addition to the front-end features, I had to ensure that users could create these activities in their own custom CMS system. The user would first create an activity (Title, Description). Once the Activity has been created, the user has the ability to add a map as well as images. As such, I created an image uploader as well as the ability to enter an address and translate to the Google map.</p>
+<p class="blockp">Database calls were in PHP, using PDO connection.</p>
+            </article>
+
+            <section class="viewmywork">
+           <h3>Features</h3>
+           <br/><br/>
+         
+           <img class="mockup" src="img/trvlr_comments.jpg" alt="trvlrlogo" />
+           <img class="mockup" src="img/trvlr_map.jpg" alt="trvlrlogo" />
+           <img class="mockup" src="img/trvlr_imgs.jpg" alt="trvlrlogo" />
+            <p>Three database driven features.</p>
+        </section>
+        <footer>
+            <nav>
+                <div class="line-separator"></div>
+
+                <ul id="nav-bottom">
+                    <li>
+                        <a href="index.html">About</a>
+                    </li>
+
+                    <li>
+                        <a href="work.html">Work &amp; Case Studies</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+
+                    <li>
+                        <a href="http://blog.caroshaw.com">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <nav>
+
+                <ul id="nav-social">
+                    <li>
+                        <a href="https://twitter.com/cmkshaw">Follow me on
+                        Twitter</a>
+                    </li>
+                    
+
+                    <li>
+                        <a href="http://ca.linkedin.com/in/cmkshaw">Connect
+                        with LinkedIn</a>
+                    </li>
+
+                    <li>
+                        <a href="http://www.caroshaw.com/caroline_shaw_resume.pdf">View my resumé</a>
+                    </li>
+
+                    <li>
+                        <a href="https://github.com/cmkshaw">My github</a>
+                    </li>
+                </ul>
+            </nav>
+            <div id="copyright">
+                <p>© 2013 Caroline Shaw</p>
+                <p>647 226 6471 - info@caroshaw.com</p>
+            </div>
+        </footer>
+    </div><!--container-->
+    <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-38234064-1']);
+    _gaq.push(['_setDomainName', 'caroshaw.com']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+    </script>
+</body>
+</html>
